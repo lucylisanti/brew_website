@@ -1,17 +1,40 @@
 header {
   text-align: center;
+  padding-top: 50px;
   }
-h1 {
-  font-family: "courier new", courier, monospace;
-}
 body {
   padding-top: 30px;
+  font-family: 'Arbutus';font-size: 22px;
+
 }
-.btn-twitter {
-  background: #00acee;
-  border-color: #009ad5;
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
-.btn-facebook {
-  background: #4868ac;
-  border-color: #314776;
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.col-sm-6 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.col-sm-6:hover {
+  opacity: 0.7;
+}
+@media screen and (max-width:500px) {
+  .col-sm-6 {
+    width: 100%;
+  }
 }
