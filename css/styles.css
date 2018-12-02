@@ -5,7 +5,7 @@ header {
 body {
   padding-top: 30px;
   font-family: 'Arbutus';font-size: 22px;
-}
+  }
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -52,4 +52,8 @@ body {
 }
 .map-wrapper {
   padding-top: 100px;
+}
+.top-left {
+  position: absolute;
+    top: 8px;
 }
