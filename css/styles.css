@@ -1,13 +1,20 @@
 body {
   height:100%;
-  background: linear-gradient(90deg, #696969 50%, #FFFFFF 50%);
+  background:black;
 }
-h1 {
+h1{
+   font-family: 'Alfa Slab One', cursive;
+   letter-spacing: 20px;
+   text-align: center;
+   font-size: 60px;
+   color:white;
+   padding-top: 60px;
+}
+p{
   text-align: center;
-  padding-top: 20px;
-  font-family: 'Alfa Slab One', cursive;
-  letter-spacing: 20px;
-  font-size: 50px
+  margin: 0px 0 70px 0;
+  color:white;
+
 }
 p {
   text-align: center;
