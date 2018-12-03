@@ -4,8 +4,14 @@ header {
   }
 body {
   padding-top: 30px;
-  font-family: 'Arbutus';font-size: 22px;
+  font-family: 'Arbutus';font-size: 22px; color: black;
   }
+h2 {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -56,4 +62,10 @@ body {
 .top-left {
   position: absolute;
     top: 8px;
+}
+.jumbotron {
+  background-image: url(../images/architecture-bar-beer-751046.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 280px;
 }
